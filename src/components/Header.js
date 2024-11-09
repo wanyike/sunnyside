@@ -1,6 +1,4 @@
 import React from "react";
-import Logo from "./Logo"
-
 import MenuButton from "./MenuButton";
 
 const Header = () => {
@@ -8,8 +6,8 @@ const Header = () => {
     <>
       <header className="bg-blue-500 flex items-center justify-between">
           <div>
-             <Logo />
-               </div>
+          <logo />
+        </div>
                 <div>
                     <MenuButton />
                 </div>
