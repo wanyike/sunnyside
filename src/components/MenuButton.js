@@ -1,14 +1,15 @@
-import Menu from "../images/icon-hamburger.svg"
-import React from 'react'
+import React from "react"
+import Menu from "../images/icon-hamburger.svg";
+
 
 const MenuButton = () => {
-    return (
-      <>
-            <button>
-            <img src={Menu} alt=""/>
-            </button>
-            </>
-  )
+  return (
+    <>
+      <button>
+        <img src={Menu} alt="" />
+      </button>
+    </>
+  );
 }
 
-export default MenuButton
+export default MenuButton;

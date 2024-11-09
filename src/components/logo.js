@@ -1,13 +1,14 @@
-import logo from "../images/logo.svg"
 
+import React from "react"
+import Logo from "./images/logo"
 const Logo = () => {
   return (
-      <>
-          <div>
-              <img src={logo} alt="sunnyside landing page" />  
-          </div>
-    </>
-  )
-}
+    <>
+    <div>
+       <img src={Logo} alt="" />
+      </div>
+      </>
+  );
+};
 
-export default Logo
+export default Logo;

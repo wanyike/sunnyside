@@ -1,19 +1,21 @@
-import logo from "./logo"
-import MenuButton from "./MenuButton"
+import React from "react";
+import Logo from "./Logo"
+
+import MenuButton from "./MenuButton";
 
 const Header = () => {
-    return (
-      <>
-            <header> 
-                <div>
-                    <logo />
-                </div>
+  return (
+    <>
+      <header className="bg-blue-500 flex items-center justify-between">
+          <div>
+             <Logo />
+               </div>
                 <div>
                     <MenuButton />
                 </div>
-            </header>
-            </>
-  )
-}
+      </header>
+      </>
+  );
+};
 
-export default Header
+export default Header;
