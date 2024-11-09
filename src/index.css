@@ -34,10 +34,13 @@ ul{
 
 p{
   line-height: 1.5;
+  font-size: 16px;
+  color: var(--very-darkgrayish-blue);
 }
 
 h1,h2,h3,h4,h5,h6 {
   font-family: "Fraunces", sans-serif;
+  color: var(--very-dark-desaturated-blue);
 }
 
 body {
@@ -55,6 +58,14 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.btn-transform {
+
+  color: var(--very-dark-desaturated-blue);
+  border-bottom: 5px solid var(--yellow);
+  text-transform: uppercase;
+
 }
 
 @media (min-width: 768px) {
