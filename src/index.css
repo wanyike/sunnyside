@@ -43,3 +43,24 @@ h1,h2,h3,h4,h5,h6 {
 body {
   font-family: "Barlow", sans-serif;
 }
+
+.showcase{
+  background: url("./images/mobile/image-header.jpg") no-repeat center/cover;
+  height: 512px;
+}
+
+.showcase .overlay {
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .showcase {
+  background: url("./images/desktop/image-header.jpg")
+  no-repeat center/cover;
+  height: 512px;
+}
+}

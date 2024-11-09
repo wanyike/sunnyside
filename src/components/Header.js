@@ -1,13 +1,15 @@
 import React from "react";
+import Logo from "./Logo"
 import MenuButton from "./MenuButton";
 
 const Header = () => {
   return (
     <>
-      <header className="bg-blue-500 flex items-center justify-between">
+      <header className="absolute w-full flex items-center p-5 justify-between">
           <div>
-          <logo />
+          <Logo />
         </div>
+        
                 <div>
                     <MenuButton />
                 </div>
