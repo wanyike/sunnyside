@@ -14,7 +14,12 @@ const App = () => {
       <Showcase />
       <Transform />
       <StandOut />
+      <div className="block md:hidden">
       <GraphicMobile />
+      </div>
+      <div className="block md:block">
+        <GraphicDesktop />
+      </div>
     </>
   )
 }

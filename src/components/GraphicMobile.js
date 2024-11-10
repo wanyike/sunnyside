@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { graphicData } from "../data/graphic";
+import { graphicData } from "../data/graphic"
 
 import React from "react";
 
@@ -10,10 +10,10 @@ const GraphicData = () => {
         <>
             <section className="">
                 {cards.map(({ id, image, title, text }) => (
-                    <article key={id}>
+                    <article key={id} className="relative">
                         <img src={image} alt={title} />
-                        <div className="">
-                            <h3 className="">{title}</h3>
+                        <div className="absolute bottom-4 left-0 text-center">
+                            <h3 className="text-xl mb-4">{title}</h3>
                             <p>{text}</p>
                         </div>
                     </article>
