@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { graphicData } from "../data/graphic"
+import { graphicData } from "../data/Graphic"
 
 import React from "react";
 
