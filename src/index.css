@@ -61,11 +61,18 @@ body {
 }
 
 .btn-transform {
-
+  font-family: "Fraunces", sans-serif;
   color: var(--very-dark-desaturated-blue);
   border-bottom: 5px solid var(--yellow);
   text-transform: uppercase;
 
+}
+
+.btn-StandOut {
+  color: var(--very-dark-desaturated-blue);
+  border-bottom: 5px solid var(--soft-red);
+  text-transform: uppercase;
+  font-family: "Fraunces", sans-serif;
 }
 
 @media (min-width: 768px) {
