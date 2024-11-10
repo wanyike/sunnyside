@@ -5,7 +5,8 @@ import "tailwindcss/tailwind.css"
 import Showcase from "./components/Showcase"
 import Transform from "./components/Transform"
 import StandOut from "./components/StandOut"
-import GraphicMobile  from "./components/GraphicMobile"
+import GraphicMobile from "./components/GraphicMobile"
+import GraphicDesktop from "./components/GraphicDesktop"
 
 const App = () => {
   return (

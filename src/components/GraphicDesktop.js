@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { graphicDesktop } from "../data/graphic";
+import { graphicData } from "../data/graphic";
 
 import React from "react";
 
 const GraphicData = () => {
     // eslint-disable-next-line
-    const [cards, setCards] = useState(graphicDesktop);
+    const [cards, setCards] = useState(graphicData);
     return (
         <>
             <section className="graphic md:flex items-center justify-center">
