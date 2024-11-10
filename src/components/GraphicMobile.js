@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { GraphicMobile as graphicData } from "../data/graphic"; // Renamed import
+import { graphicData } from "../data/graphic";
 
 import React from "react";
 
-const GraphicMobile = () => {
+const GraphicData = () => {
     // eslint-disable-next-line
-    const [cards, setCards] = useState(graphicData); // Use renamed import
+    const [cards, setCards] = useState(graphicData);
     return (
         <>
             <section className="">
@@ -23,4 +23,4 @@ const GraphicMobile = () => {
     );
 }
 
-export default GraphicMobile;
+export default GraphicData;
