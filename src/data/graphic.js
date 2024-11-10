@@ -2,7 +2,7 @@ export const graphicData = [
     {
         id: 1,
         image: "./images/mobile/image-graphic-design.jpg",
-        title: "Graphic design",
+        title: "Graphic Design",
         text: "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients attention."
     },
     {
