@@ -15,9 +15,9 @@ const Testimonials = () => {
                   {people.map(({ id, name, image, about, title}) => (
                       <article key={id}>
                           <img src={image} alt={name} className="w-20 rounded-full block mx-auto mt-10 mb-5" />
-                          <p>{about}</p>
-                          <h4 className="">{name}</h4>
-                          <small>{title}</small>
+                          <p className="text-center mb-4">{about}</p>
+                          <h4 className="text-center">{name}</h4>
+                          <small className="text-center block">{title}</small>
                       </article>
                   ))}
               </div>
