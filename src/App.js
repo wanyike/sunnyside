@@ -23,6 +23,7 @@ const App = () => {
         <GraphicDesktop />
       </div>
       <Testimonials />
+      
     </>
   )
 }
