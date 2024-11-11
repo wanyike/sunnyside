@@ -8,7 +8,7 @@ const Testimonials = () => {
     const [people, setPeople] = useState(testimonials)
   return (
       <>
-          <section className="">
+          <section className="py-9 px-4 lg:py-16">
               <h2 className="testimonial-header text-2xl uppercase tracking-widest text-center">Client Testimonials</h2>
 
               <div>

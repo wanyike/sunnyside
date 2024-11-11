@@ -76,7 +76,7 @@ body {
 }
 
 .testimonial-header {
-  color: var(--dark-grayish-blue)
+  color: var(--dark-grayish-blue);
 }
 
 @media (min-width: 768px) {
