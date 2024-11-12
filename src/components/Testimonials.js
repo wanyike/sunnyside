@@ -21,12 +21,7 @@ const Testimonials = () => {
                       </article>
                   ))}
               </div>
-
-              
-              
-
-
-          </section>
+         </section>
       </>
   )
 }
