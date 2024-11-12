@@ -10,7 +10,7 @@ const GridDesktop = () => {
 
     return (
       <>
-     <section>
+     <section className="grid grid-cols-2">
                 {cards.map(({ id, image }) => (
                     <article key={id}>
                         <img src={image} alt="" />

@@ -24,13 +24,16 @@ const App = () => {
         <GraphicDesktop />
       </div>
       <Testimonials />
+
+      <div className="block md:hidden">
+        <GridMobile />
+      </div>
+
       <div className="block md:block">
         <GridDesktop />
       </div>
       
-      <div className="block md:hidden">
-        <GridMobile />
-      </div>
+      
     </>
   )
 }
