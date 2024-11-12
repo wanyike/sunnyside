@@ -25,9 +25,9 @@ const App = () => {
       </div>
       <Testimonials />
 
-      <div className="block md:hidden">
+      {/* <div className="block md:hidden">
         <GridMobile />
-      </div>
+      </div> */}
 
       <div className="block md:block">
         <GridDesktop />
