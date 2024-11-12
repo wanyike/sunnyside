@@ -8,7 +8,8 @@ import StandOut from "./components/StandOut"
 import GraphicMobile from "./components/GraphicMobile"
 import GraphicDesktop from "./components/GraphicDesktop"
 import Testimonials from "./components/Testimonials"
-
+import GridMobile from "./components/GridMobile"
+import GridDesktop from "./components/GridDesktop"
 const App = () => {
   return (
     <> 
@@ -23,7 +24,13 @@ const App = () => {
         <GraphicDesktop />
       </div>
       <Testimonials />
+      <div className="block md:block">
+        <GridDesktop />
+      </div>
       
+      <div className="block md:hidden">
+        <GridMobile />
+      </div>
     </>
   )
 }
