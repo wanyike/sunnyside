@@ -8,14 +8,14 @@ const StandOut = () => {
   return (
       <>
           <section className="">
-              <div className="">
-                  <picture className="">
+              <div className="lg:flex items-center ">
+                  <picture className="w-1/2">
                       
                       <source media="(min-width: 768px) " srcSet={standOutDesktop} alt="" />
-                      <img className="w-1/2" src={standOutMobile} alt="" />
+                      <img className="" src={standOutMobile} alt="" />
                   </picture>
                   
-                  <div className="p-5 text-center">
+                  <div className="p-5 text-center lg:text-left lg:w-1/2">
                       <h2 className="text-2xl my-5">
                       Stand out to the right audience
                       </h2>

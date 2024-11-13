@@ -7,9 +7,9 @@ import React from 'react'
 const Transform = () => {
   return (
       <>
-          <section className="">
-              <div className="lg:flex flex-row-reverse">
-                  <picture className=" ">
+          <section className="items-center">
+              <div className="lg:flex flex-row-reverse items-center">
+                  <picture className="w-1/2">
                       
                       <source media="(min-width: 768px) " srcSet={transformDesktop} alt="" />
                       <img className="" src={transformMobile} alt="" />
