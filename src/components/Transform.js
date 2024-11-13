@@ -8,14 +8,14 @@ const Transform = () => {
   return (
       <>
           <section className="">
-              <div className="">
-                  <picture className="">
+              <div className="lg:flex flex-row-reverse">
+                  <picture className=" ">
                       
                       <source media="(min-width: 768px) " srcSet={transformDesktop} alt="" />
                       <img className="" src={transformMobile} alt="" />
                   </picture>
                   
-                  <div className="p-5 text-center">
+                  <div className="p-5 text-center lg:text-left lg:w-1/2">
                       <h2 className="text-2xl my-5">
                           Transform your brand
                       </h2>

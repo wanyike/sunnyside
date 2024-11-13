@@ -79,6 +79,10 @@ body {
   color: var(--dark-grayish-blue);
 }
 
+.footer {
+  background-color: var(--footer);
+}
+
 @media (min-width: 768px) {
   .showcase {
   background: url("./images/desktop/image-header.jpg")

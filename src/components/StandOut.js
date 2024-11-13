@@ -12,7 +12,7 @@ const StandOut = () => {
                   <picture className="">
                       
                       <source media="(min-width: 768px) " srcSet={standOutDesktop} alt="" />
-                      <img className="" src={standOutMobile} alt="" />
+                      <img className="w-1/2" src={standOutMobile} alt="" />
                   </picture>
                   
                   <div className="p-5 text-center">

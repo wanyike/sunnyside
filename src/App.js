@@ -10,6 +10,8 @@ import GraphicDesktop from "./components/GraphicDesktop"
 import Testimonials from "./components/Testimonials"
 import GridMobile from "./components/GridMobile"
 import GridDesktop from "./components/GridDesktop"
+import Footer from "./components/Footer"
+
 const App = () => {
   return (
     <> 
@@ -33,7 +35,8 @@ const App = () => {
         <GridDesktop />
       </div>
       
-      
+      <Footer />
+
     </>
   )
 }
