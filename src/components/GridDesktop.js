@@ -10,7 +10,7 @@ const GridDesktop = () => {
 
     return (
       <>
-     <section className="grid grid-cols-2">
+     <section className="grid grid-cols-2 md:flex items-center justify-center">
                 {cards.map(({ id, image }) => (
                     <article key={id}>
                         <img src={image} alt="" />
