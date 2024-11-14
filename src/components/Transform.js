@@ -16,15 +16,15 @@ const Transform = () => {
                   </picture>
                   
                   <div className="p-5 text-center lg:text-left lg:w-1/2">
-                      <h2 className="text-2xl my-5">
+                      <h2 className="text-2xl my-5 lg:text-5xl  mb-10 font-serif font-bold  ml-20 mr-20">
                           Transform your brand
                       </h2>
-                      <p className="mb-5">
+                      <p className="mb-8  ml-20 mr-20">
                       We are a full-service creative agency specializing in helping brands grow fast. 
                       Engage your clients through compelling visuals that do most of the marketing for you.
                       </p>
 
-                      <button className="btn-transform">Learn More</button>
+                      <button className="btn-transform lg:text-2xl mt-8 font-serif ml-20 mr-20">Learn More</button>
 
                   </div>
                </div>

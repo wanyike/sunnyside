@@ -7,7 +7,7 @@
   --yellow: hsl(51, 100%, 49%);
   --graphic-design-text: hsl(167, 40%, 24%);
  --photography-text: hsl(198, 62%, 26%);
- --footer: hsl(168, 34%, 41%);
+ --footer: hsl(170, 47%, 73%);
   
   
   
@@ -36,11 +36,13 @@ p{
   line-height: 1.5;
   font-size: 16px;
   color: var(--very-darkgrayish-blue);
+  font-weight: 600;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2{
   font-family: "Fraunces", sans-serif;
   color: var(--very-dark-desaturated-blue);
+ 
 }
 
 body {
@@ -65,7 +67,7 @@ body {
   color: var(--very-dark-desaturated-blue);
   border-bottom: 5px solid var(--yellow);
   text-transform: uppercase;
-
+  font-weight: 800;
 }
 
 .btn-StandOut {
@@ -73,6 +75,7 @@ body {
   border-bottom: 5px solid var(--soft-red);
   text-transform: uppercase;
   font-family: "Fraunces", sans-serif;
+  font-weight: 800;
 }
 
 .testimonial-header {
