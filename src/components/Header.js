@@ -11,12 +11,19 @@ const Header = () => {
         </div>
 
        <div className="">
-          <ul className="navbar-nav">
+          <ul className="navbar-nav active">
             <li className=""><a href="#about" className="nav-link">About</a> </li>
             <li className=""><a href="#services" className="nav-link">Services</a> </li>
             <li className=""><a href="#projects" className="nav-link">Projects</a> </li>
-            <li className=""><button className="nav-yoggle-btn">Contact</button></li>
-        </ul>
+            <li className=""><button className="nav-toggle-btn">Contact</button></li>
+          </ul>
+          
+          <button className="nav-toggle-btn active">
+            <span className="line one"></span>
+            <span className="line two"></span>
+            <span className="line three"></span>
+          </button>
+
         </div>
                 <div>
                     <MenuButton />
