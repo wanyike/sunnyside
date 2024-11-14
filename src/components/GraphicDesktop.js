@@ -13,7 +13,7 @@ const GraphicData = () => {
                     <article key={id} className="relative">
                         <img src={image} alt={title} />
                         <div className="absolute bottom-4 left-0 text-center">
-                            <h3 className="text-xl mb-4">{title}</h3>
+                            <h3 className="text-xl mb-5 font-extrabold font-serif">{title}</h3>
                             <p>{text}</p>
                         </div>
                     </article>
