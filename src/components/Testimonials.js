@@ -16,8 +16,8 @@ const Testimonials = () => {
                       <article key={id}>
                           <img src={image} alt={name} className="w-20 rounded-full block mx-auto mt-10 mb-5" />
                           <p className="text-center mb-4">{about}</p>
-                          <h4 className="text-center">{name}</h4>
-                          <small className="text-center block">{title}</small>
+                          <h4 className="text-center font-black mt-10">{name}</h4>
+                          <small className="text-center block mt-3">{title}</small>
                       </article>
                   ))}
               </div>
