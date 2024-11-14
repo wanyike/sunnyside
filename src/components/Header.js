@@ -9,7 +9,15 @@ const Header = () => {
           <div>
           <Logo />
         </div>
-        
+
+       <div className="">
+          <ul className="navbar-nav">
+            <li className=""><a href="#about" className="nav-link">About</a> </li>
+            <li className=""><a href="#services" className="nav-link">Services</a> </li>
+            <li className=""><a href="#projects" className="nav-link">Projects</a> </li>
+            <li className=""><button className="nav-yoggle-btn">Contact</button></li>
+        </ul>
+        </div>
                 <div>
                     <MenuButton />
                 </div>
