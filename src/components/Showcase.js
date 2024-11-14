@@ -5,7 +5,7 @@ const Showcase = () => {
       <>
           <section className="showcase">
               <div className="overlay">
-                  <h1 className="text-4xl uppercase text-white tracking-widest">We are creatives </h1>
+                  <h1 className="text-4xl uppercase text-white tracking-widest font-serif font-extrabold">We are creatives </h1>
                   <img src={arrow} alt=""className="mt-12" />
               </div>
               
