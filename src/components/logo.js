@@ -4,8 +4,8 @@ import logo from "../images/logo.svg"
 const Logo = () => {
   return (
     <>
-    <div>
-       <img src={logo} alt="sunnyside" />
+    <div className="">
+       <img src={logo} alt="sunnyside" className=""/>
       </div>
       </>
   );
