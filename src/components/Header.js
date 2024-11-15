@@ -11,7 +11,7 @@ const Header = () => {
         </div>
 
        <div className="">
-          <ul className="navbar-nav active">
+          <ul className="navbar-nav active flex items-center gap-5 ">
             <li className=""><a href="#about" className="nav-link">About</a> </li>
             <li className=""><a href="#services" className="nav-link">Services</a> </li>
             <li className=""><a href="#projects" className="nav-link">Projects</a> </li>
