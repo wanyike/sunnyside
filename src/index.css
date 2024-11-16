@@ -45,9 +45,20 @@ h2{
  
 }
 
-.navbar-nav {
+
+
+.nav-toggle-btn {
   background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+
+ 
 }
+
+
 
 
 body {
