@@ -58,6 +58,12 @@ h2{
  
 }
 
+.navbar-nav::after{
+  content: "";
+  position: absolute;
+  top: -19px;
+  right: -20px;
+}
 
 
 
