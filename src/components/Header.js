@@ -10,7 +10,7 @@ const Header = () => {
           <Logo />
         </div>
 
-       {/* <div className="">
+       <div className="">
        <ul className="navbar-nav active flex">
             <li className=""><a href="#about" className="nav-link">About</a> </li>
             <li className=""><a href="#services" className="nav-link">Services</a> </li>
@@ -24,7 +24,7 @@ const Header = () => {
             <span className="line three"></span>
           </button>
 
-        </div> */}
+        </div>
                 <div>
                     <MenuButton />
                 </div>
