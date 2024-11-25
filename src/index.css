@@ -45,27 +45,6 @@ h2{
  
 }
 
-
-
-.nav-toggle-btn {
-  background: var(--white);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 54px;
-
- 
-}
-
-.navbar-nav::after{
-  content: "";
-  position: absolute;
-  top: -19px;
-  right: -20px;
-}
-
-
 body {
   font-family: "Barlow", sans-serif;
 }

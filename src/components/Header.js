@@ -9,9 +9,7 @@ const Header = () => {
           <div>
           <Logo />
         </div>
-
-       
-                <div>
+        <div>
                     <MenuButton />
                 </div>
       </header>
